@@ -27,26 +27,25 @@
 
 #menu li a:hover {
   color: #000;
-  background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
+  background: #ffc038 url("/CSS/img/seta.png") no-repeat 10px center;
   padding-left: 2.5em;
 }
 
 #menu li a:active {
   color: #fff;
-  background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
+  background: #ffc038 url("/CSS/img/seta.png") no-repeat 10px center;
 }
 
 #menu li.selecionado a {
   color: #fff;
-  background: #000 url("/CSS/seta.png") no-repeat 10px center;
+  background: #000 url("/CSS/img/seta.png") no-repeat 10px center;
   padding-left: 2.5em;
 }
 
 #uber #menu li.uber a {
   color: #fff;
   padding-left: 2.5em;
-   background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
-
+  background: #ffc038 url("/CSS/img/seta.png") no-repeat 10px center;
 }
 
 /* Responsivo */

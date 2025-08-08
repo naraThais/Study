@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* centraliza horizontalmente */
+  align-items: center;
   text-align: center;
 }
 
