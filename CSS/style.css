@@ -1,0 +1,58 @@
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background: #242323ff;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  font-size: 1.1em;
+  overflow: hidden;
+}
+
+#menu li {
+  margin: 0;
+}
+
+#menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7em 1.5em;
+  transition: all 0.3s ease;
+}
+
+#menu li a:hover {
+  color: #000;
+  background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
+  padding-left: 2.5em;
+}
+
+#menu li a:active {
+  color: #fff;
+  background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
+}
+
+#menu li.selecionado a {
+  color: #fff;
+  background: #000 url("/CSS/seta.png") no-repeat 10px center;
+  padding-left: 2.5em;
+}
+
+#uber #menu li.uber a {
+  color: #fff;
+  padding-left: 2.5em;
+   background: #ffc038 url("/CSS/seta.png") no-repeat 10px center;
+
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  #menu li a {
+    text-align: center;
+    padding: 1em;
+  }
+}
